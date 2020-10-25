@@ -30,7 +30,7 @@
         </form>
       </div>
       <div class="col border">
-        <vue-promise :delay="form.delay" :promise="example" :tag="form.tag">
+        <promise-vue :delay="form.delay" :promise="example" :tag="form.tag">
           <template v-slot:pendding>
             <div>Loadding...</div>
           </template>
@@ -42,14 +42,14 @@
           <template v-slot:error="error">
             <pre>reject === {{ error }}</pre>
           </template>
-        </vue-promise>
+        </promise-vue>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import VuePromiseComponent from "./components/vue-promise.vue";
+import VuePromiseComponent from "./components/promise-vue.vue";
 
 const testPromise = (time = 1000, reject = false) => {
   return new Promise((res, rej) => {
@@ -70,7 +70,7 @@ const testPromise = (time = 1000, reject = false) => {
 export default {
   name: "App",
   components: {
-    "vue-promise": VuePromiseComponent,
+    "promise-vue": VuePromiseComponent,
   },
   data() {
     return {
