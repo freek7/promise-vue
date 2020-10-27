@@ -5,7 +5,7 @@ Ultra simple component to work with Promise.
 It may be installed  as [npm package](https://www.npmjs.com/package/promise-vue "npm")
 
     npm i promise-vue
-	import  promiseVue from 'promise-vue'
+	import VuePromiseComponent from 'promise-vue'
 	
 then register as component
 
