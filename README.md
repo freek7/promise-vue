@@ -12,7 +12,8 @@ then register as component
 
     components: {
         "promise-vue": VuePromiseComponent,
-      },`
+      }
+	  
 ### How to use
 In promise You have 3 state
 1. **pendding**
