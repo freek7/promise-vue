@@ -1,6 +1,6 @@
 {
   "name": "promise-vue",
-  "version": "0.1.7",
+  "version": "1.0.1",
   "private": false,
   "author": "https://github.com/freek7",
   "license": "MIT",
@@ -8,6 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/freek7/promise-vue"
   },
+  "keywords": ["vue", "promise", "promise-vue", "async", "ajax", "axios"],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build:app": "vue-cli-service build",
