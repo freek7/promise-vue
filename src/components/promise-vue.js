@@ -5,7 +5,6 @@
 //     <slot v-if="error && resolved" name="error" :data="error"/>
 //   </component>
 // `;
-// const compiledTemplate = Vue.compile(template);
 
 export default {
 	name: 'VuePromiseComponent',
@@ -101,7 +100,6 @@ export default {
 				data: this.error
 			};
 		}
-
-		return createElement(wrapTag, {}, [ this.$scopedSlots[slotName](slotProps) ]);
+		return createElement(wrapTag, [ this.$scopedSlots[slotName](slotProps) ]);
 	}
 };

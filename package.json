@@ -1,6 +1,6 @@
 {
   "name": "promise-vue",
-  "version": "0.1.4",
+  "version": "0.1.7",
   "private": false,
   "author": "https://github.com/freek7",
   "license": "MIT",
@@ -19,6 +19,7 @@
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
+  "main": "index.js",
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
