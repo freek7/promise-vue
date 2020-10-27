@@ -1,1 +1,1 @@
-export { default as PromiseVue } from '@/components/promise-vue.vue';
+export { default as PromiseVue } from './src/components/promise-vue.js';

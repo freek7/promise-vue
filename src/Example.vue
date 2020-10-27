@@ -49,7 +49,7 @@
 </template>
 
 <script>
-import VuePromiseComponent from "./components/promise-vue.vue";
+import VuePromiseComponent from "./components/promise-vue.js";
 
 const testPromise = (time = 1000, reject = false) => {
   return new Promise((res, rej) => {
