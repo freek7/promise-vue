@@ -5,7 +5,14 @@ Ultra simple component to work with Promise.
 It may be installed  as [npm package](https://www.npmjs.com/package/promise-vue "npm")
 
     npm i promise-vue
+	import  promiseVue from 'promise-vue'
+	
+then register as component
 
+
+    components: {
+        "promise-vue": VuePromiseComponent,
+      },`
 ### How to use
 In promise You have 3 state
 1. **pendding**

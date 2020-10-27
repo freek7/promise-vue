@@ -11,7 +11,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build:app": "vue-cli-service build",
-    "build": "vue-cli-service build --target lib --name promiseVue build.js",
+    "build": "vue-cli-service build --target lib --name promiseVue index.js",
     "build:example": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
